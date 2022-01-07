@@ -85,6 +85,7 @@ h1 span{
 }
 
 .article-width{
+    display: flex;
     width:50%;
     float: left;
     margin-left: 0px;
@@ -104,26 +105,37 @@ h1 span{
     background-position: left;
     background-size: 300px 300px;
     padding-left: 20px;
+    display: flex;
+}
+.parent-second-article{
+    display: flex;
 }
 
-.article-width-two{
-    width:50%;
-    float: left;
+.second-article-width{
+    width: 50%;
     margin-left: 0px;
     padding-left: 2%;
     text-align: left;
 }
-
-.article-width-two img{
+.second-article-width img{
     width: 50%;
-    
+    float: right;
+    margin-right: 20%;
+    padding-right: 10%;
+
 }
 
-#article-two-area{
+.second-article-width p {
+  
+    border: solid 0px #000;
+    display: inline-block;
+  }
+
+
+#second-article-area{
     background-image: url("images/shapes/shape-1.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom right;
     background-size: 300px 300px;
-
+   
 }
-
