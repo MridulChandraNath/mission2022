@@ -144,6 +144,10 @@ h1 span{
     height: 50px;
     background-color: rgb(86, 88, 88);
     text-align: center;
-    margin-top: 5px;
+    color: white;
 
+}
+
+.footer-span-color{
+    color: orangered;
 }
